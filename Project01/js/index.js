@@ -3,28 +3,27 @@ var shoppingCart = [];
 window.onload = function () {
   var item1 = {
     ID: 1,
-    Name: "Bunny1",
-    Description: "Favorite Food - Cucumber, Carrot",
-    Price: 500,
-    Image: "https://www.petakids.com/wp-content/uploads/2015/11/Baby-Bunny.jpg",
+    Name: "Banana-MY",
+    Description: "Banana from Malaysia",
+    Price: 100,
+    Image:
+      "https://i0.wp.com/mrbanana.com.my/wp-content/uploads/2020/01/bananas.jpg",
   };
 
   var item2 = {
     ID: 2,
-    Name: "Bunny1",
-    Description: "Favorite Food - Cucumber, Carrot",
-    Price: 500,
-    Image:
-      "https://www.southernliving.com/thmb/90f6qLFHqn41zOIknnaJDiBebHw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-10141026-1bunnies.-vikkihart-2000-7e25d19a2b5b4e8f8026cea5935826ed.jpg",
+    Name: "Banana-Thailand",
+    Description: "Banana from Thailand",
+    Price: 200,
+    Image: "https://cdn.shopify.com/s/files/1/0271/6634/3237/products/thai.png",
   };
 
   var item3 = {
     ID: 3,
-    Name: "Bunny1",
-    Description: "Favorite Food - Cucumber, Carrot",
-    Price: 500,
-    Image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Oryctolagus_cuniculus_Rcdo.jpg/640px-Oryctolagus_cuniculus_Rcdo.jpg",
+    Name: "Banana-China",
+    Description: "Banana from China",
+    Price: 250,
+    Image:"https://c8.alamy.com/comp/A9HPW9/chinese-banana-musa-cavendishii-banana-A9HPW9.jpg",
   };
 
   products = [item1, item2, item3];
@@ -43,7 +42,7 @@ window.onload = function () {
 
   menuAbout.onclick = function () {
     hideEveryDiv();
-  }
+  };
 
   var modal = document.getElementById("itemModal");
   var close = document.getElementById("modalClose");

@@ -5,14 +5,58 @@ body {
 nav {
   display: block;
 }
-nav ul li {
-  margin: 10px;
-  float: left;
-  background-color: skyblue;
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
-nav ul li a {
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
 }
+
+li a:hover {
+  background-color: #111;
+}
+
+
+div.background {
+  width: 100%;
+  height: 850px;
+  background: url(../img/Banana.jpg);
+  background-size: contain;
+  background-position: center;
+  border: 1px solid black;
+}
+div.transbox {
+  width: 95%;
+  height: 775px;
+  margin: 30px 40px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  font-size: 50px;
+
+}
+
+div.transbox p {
+  margin: 30px 40px;
+  font-weight: bold;
+  color: #000000;
+}
+
 #cartDisplay {
   display: none;
 }
@@ -25,12 +69,6 @@ nav ul li a {
 
 #productsDisplay div[id^="item"] {
   border: 1px solid black;
-}
-
-.uibar{
-  margin: 10px;
-  float: left;
-  background-color: skyblue;
 }
 
 .modal {
