@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                
+                padding: 0;
+            }
+            
+            nav{
+                display: block;
+            }
+            nav ul li{
+                margin: 10px;
+                float: left;
+                background-color: skyblue;
+            }
+            nav ul li a{
+                text-decoration: none;
+            }
+            #cartDisplay{
+                display: none;
+                
+            }
+            #productsDisplay{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                text-align: center;
+                grid-gap: 10px;
+            }
+            
+            #productsDisplay div[id^="item"]{
+                border: 1px solid black;
+            }
+        </style>
+        
+        <script type="text/javascript">
+            var products = [];
+            window.onload = function(){
+                var item1 = {ID : 1, Name : "Bunny1", Description : "Favorite Food - Cucumber, Carrot", Price : 500, Image : "https://www.petakids.com/wp-content/uploads/2015/11/Baby-Bunny.jpg"};
+                
+                var item2 = {ID : 2, Name : "Bunny1", Description : "Favorite Food - Cucumber, Carrot", Price : 500, Image : "https://www.southernliving.com/thmb/90f6qLFHqn41zOIknnaJDiBebHw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-10141026-1bunnies.-vikkihart-2000-7e25d19a2b5b4e8f8026cea5935826ed.jpg"};
+                
+                var item3 = {ID : 3, Name : "Bunny1", Description : "Favorite Food - Cucumber, Carrot", Price : 500, Image : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Oryctolagus_cuniculus_Rcdo.jpg/640px-Oryctolagus_cuniculus_Rcdo.jpg"};
+                
+                
+                menuShop.onclick = function(){
+                    hideEveryDiv();
+                    document.getElementById('productsDisplay').style.display = "unset";
+                }
+                
+                menuCart.onclick = function(){
+                    hideEveryDiv();
+                    document.getElementById('cartDisplay').style.display = "unset";
+                }
+            }
+            
+            function hideEveryDiv(){
+                document.getElementById('productsDisplay').style.display = "none";
+                document.getElementById('cartDisplay').style.display = "none";
+            }
+        </script>
+    </head>
+    <body>
+        
+        <div>
+            <nav>
+                <ul type="none">
+                    <li><a href="#" id="menuShop">Shop</a></li>
+                    <li><a href="#" id="menuCart">Cart</a></li>
+                </ul>
+            </nav>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <div id="productsDisplay">
+            <div id="item1">
+                <img src="https://www.petakids.com/wp-content/uploads/2015/11/Baby-Bunny.jpg" width="150" height="150"/>
+                
+                <div class="productName">
+                    Name
+                </div>
+                
+                <div class="productDescription">
+                    Favorite Food - Cucumber, Carrot
+                </div>
+                
+                <div class="productPrice">
+                    RM 500
+                </div>
+            </div>
+            
+            <div id="item1">
+                <img src="https://www.southernliving.com/thmb/90f6qLFHqn41zOIknnaJDiBebHw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-10141026-1bunnies.-vikkihart-2000-7e25d19a2b5b4e8f8026cea5935826ed.jpg" width="150" height="150"/>
+                
+                <div class="productName">
+                    Name
+                </div>
+                
+                <div class="productDescription">
+                    Favorite Food - Cucumber, Carrot
+                </div>
+                
+                <div class="productPrice">
+                    RM 500
+                </div>
+            </div>
+            
+            <div id="item1">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Oryctolagus_cuniculus_Rcdo.jpg/640px-Oryctolagus_cuniculus_Rcdo.jpg" width="150" height="150"/>
+                
+                <div class="productName">
+                    Name
+                </div>
+                
+                <div class="productDescription">
+                    Favorite Food - Cucumber, Carrot
+                </div>
+                
+                <div class="productPrice">
+                    RM 500
+                </div>
+            </div>
+        </div>
+        
+        <div id="cartDisplay">
+            test2
+        </div>
+        
+        
+    </body>
+</html>
