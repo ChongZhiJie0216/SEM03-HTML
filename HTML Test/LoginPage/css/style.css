@@ -1,0 +1,108 @@
+body{
+  background-color: rgb(22,22,34);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+div.background{
+  width: 1000px;
+  height:750px;
+  position: relative;
+  top: +125px;
+  left: 0px;
+  position: relative;
+  background-color: rgb(32,31,45);
+  background-position: center;
+  border: 1px solid yellow;
+}
+div.picture {
+  width: 500px;
+  height:750px;
+  position: relative;
+  top: 0px;
+  left: -250px;
+  background: url(../img/background.webp);
+  background-position: center;
+  border: 1px solid pink;
+}
+
+div.Login{
+  position: relative;
+  top: 100px;
+  left: 500px;
+  width: 500px;
+  height:500px;
+  border: 3px solid aqua;
+
+}
+
+.Welcome{
+  color: white;
+  position: relative;
+  top: -15px;
+  left: 10px;
+  font-size: 45px;
+}
+
+.Sign{
+  color: gray;
+  position: relative;
+  top: -45px;
+  left: -75px;
+}
+
+.Email{
+  color: white;
+  position: relative;
+  top: -35px;
+  left: -125px;
+  font-size: 20px;
+}
+
+.Password{
+  color: white;
+  position: relative;
+  top: -35px;
+  left: -105px;
+  font-size: 20px
+}
+
+input.Email{
+  opacity: 15%;
+  border: 3px solid red;
+  border-radius: 4px;
+  position: relative;
+  top: -50px;
+  left: -30px;
+  font-size: 20px;
+}
+
+input.Password{
+  opacity: 15%;
+  border: 3px solid red;
+  border-radius: 4px;
+  position: relative;
+  top: -50px;
+  left: -30px;
+  font-size: 20px;
+}
+
+.ForgotPassword{
+  color: white;
+  position: relative;
+  top: -10px;
+  left: 105px;
+  font-size: 10px
+}
+
+.SignIn{
+  background-color: rgb(239,35,62);
+  color: white;
+  position: relative;
+  top: -15px;
+  left: 10px;
+  font-size: 30px;
+  border: 4px solid red;
+  border-radius: 4px;
+  width: 350px;
+  height: 40px;
+}
