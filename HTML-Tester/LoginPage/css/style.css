@@ -12,7 +12,6 @@ div.background{
   position: relative;
   background-color: rgb(32,31,45);
   background-position: center;
-  border: 1px solid yellow;
 }
 div.picture {
   width: 500px;
@@ -22,7 +21,6 @@ div.picture {
   left: -250px;
   background: url(../img/background.webp);
   background-position: center;
-  border: 1px solid pink;
 }
 
 div.Login{
@@ -31,7 +29,6 @@ div.Login{
   left: 500px;
   width: 500px;
   height:500px;
-  border: 3px solid aqua;
 
 }
 
@@ -72,8 +69,10 @@ input.Email{
   border-radius: 4px;
   position: relative;
   top: -50px;
-  left: -30px;
+  left: -10px;
   font-size: 20px;
+  width: 280px;
+  height: 30px;
 }
 
 input.Password{
@@ -82,8 +81,10 @@ input.Password{
   border-radius: 4px;
   position: relative;
   top: -50px;
-  left: -30px;
+  left: -10px;
   font-size: 20px;
+  width: 280px;
+  height: 30px
 }
 
 .ForgotPassword{
@@ -91,7 +92,7 @@ input.Password{
   position: relative;
   top: -10px;
   left: 105px;
-  font-size: 10px
+  font-size: 15px
 }
 
 .SignIn{

@@ -1,0 +1,70 @@
+body{
+  background-color:wheat;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+div.background{
+  width: 1000px;
+  height:750px;
+  position: relative;
+  top: +125px;
+  left: 0px;
+  position: relative;
+  background-color: white;
+  background-position: center;
+}
+div.picture {
+  width: 500px;
+  height:750px;
+  position: relative;
+  top: -200px;
+  left: -250px;
+  background: url(../img/Slime.png);
+  background-position: center;
+  background-repeat:no-repeat;
+  padding-top:80px;
+  
+}
+
+div.Login{
+  position: relative;
+  top: 100px;
+  left: 500px;
+  width: 500px;
+  height:500px;
+}
+
+.Name{
+  position: relative;
+  top:550px;
+  left: -0px;
+}
+
+.Birth{
+    position: relative;
+    top:550px;
+    left: -0px;
+}
+
+.Country{
+  position: relative;
+  top:550px;
+  left: -0px;
+}
+
+.Website{
+  position: relative;
+  top:550px;
+  left: -0px;
+}
+
+div.AboutMe{
+  position: relative;
+  top: 60px;
+  left: 450px;
+  height:250px;
+}
+
+.Info{
+  font-size: 20px;
+}
