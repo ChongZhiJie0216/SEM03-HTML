@@ -35,21 +35,21 @@ div.navBar {
   color: white;
   position: relative;
   top: -75px;
-  left: 300px;
+  left: -400px;
   height: 50px;
   font-size: 100%;
   font: inherit;
-  width:auto;
+  width:200px;
   margin: auto;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   word-spacing:100%;
   direction:ltr;
-  text-align:left;
+  text-align:center;
   vertical-align: baseline;
   border-collapse: separate;
-  border-spacing: 25px 10px;
   font-size: large;
   font-weight:bold;
+  margin: 0%;
 }
 
 .oku{
@@ -122,7 +122,7 @@ div.background{
 div.post{
   background-color: black;
   width: 1250px;
-  height: 500px;
+  height: 475px;
   position: relative;
   top: 50px;
 }
@@ -167,7 +167,7 @@ div.post{
 
 div.pic02{
   position: relative;
-  top: 5%;
+  top: 8%;
   left: 0%;
   width: 1250px;
   height: 400px;
@@ -269,7 +269,7 @@ div.headby{
   width: 1000px;
   height: 100px;
   position: relative;
-  top: 250px;
+  top: 220px;
 }
 
 .hdlogo{
