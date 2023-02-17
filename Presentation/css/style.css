@@ -1,0 +1,278 @@
+body {
+  background-color: gray;
+  margin: 0%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.navBar {
+  position: relative;
+  background-color: black;
+  width: 1500px;
+  height: 30px;
+}
+
+.choose{
+  color: white;
+  position: relative;
+  top: 2px;
+  left: 50px;
+  height: 50px;
+  font-size: 100%;
+  font: inherit;
+  width:auto;
+  margin: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  word-spacing:100%;
+  direction:ltr;
+  text-align:left;
+  vertical-align: baseline;
+  border-collapse: separate;
+  border-spacing: 25px 10px;
+  font-size: large;
+  font-weight:bold;
+}
+.choose02{
+  color: white;
+  position: relative;
+  top: -75px;
+  left: 300px;
+  height: 50px;
+  font-size: 100%;
+  font: inherit;
+  width:auto;
+  margin: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  word-spacing:100%;
+  direction:ltr;
+  text-align:left;
+  vertical-align: baseline;
+  border-collapse: separate;
+  border-spacing: 25px 10px;
+  font-size: large;
+  font-weight:bold;
+}
+
+.oku{
+  color: white;
+  position: relative;
+  top: -45px;
+  left: -500px;
+  width:auto;
+  height: auto;
+  margin: auto;
+}
+
+div.navBar02 {
+  position: relative;
+  background-color: black;
+  width: 1500px;
+  height: 100px;
+  top: 2px;
+}
+
+.logo{
+  height:100; 
+  width:300;
+  position: relative;
+  left: -450px;
+  top:10%;
+}
+
+.logo02{
+  height:100; 
+  width:300;
+  position: relative;
+  left: 450px;
+  top: 10%;
+  border-spacing: 20px 5px;
+
+}
+.title{
+  color: white;
+  position: relative;
+  top: -75px;
+  left: auto;
+  height: 50px;
+  font-size: 100%;
+  font: inherit;
+  width:auto;
+  margin: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  word-spacing:100%;
+  direction:ltr;
+  text-align:center;
+  vertical-align: baseline;
+  border-collapse: separate;
+  border-spacing: 25px 10px;
+}
+
+div.info{
+  background-color: white;
+  width: 1500px;
+  height: 1820px;
+  position: relative;
+  top: -50px;
+}
+
+div.background{
+  position: relative;
+  top: 1%;
+}
+
+div.post{
+  background-color: black;
+  width: 1250px;
+  height: 500px;
+  position: relative;
+  top: 50px;
+}
+
+.pic{
+  position: relative;
+  top: 10px;
+  left: -320px;
+}
+
+.post-txt{
+  color: white;
+  width: 600px;
+  height: auto;
+  position: relative;
+  top: -69%;
+  left: 300px;
+  font-size: 100%;
+  font: inherit;
+  margin: auto;
+  text-align:left;
+
+}
+.post-txt02{
+  color: white;
+  width: 1250px;
+  height: auto;
+  position: relative;
+  top: -65%;
+  left: 0%;
+  font-size: 100%;
+  font: inherit;
+  margin: auto;
+  text-align:left;
+}
+
+.EXHIBITION{
+  position: relative;
+  left: -42%;
+  top:-60%
+}
+
+div.pic02{
+  position: relative;
+  top: 5%;
+  left: 0%;
+  width: 1250px;
+  height: 400px;
+}
+
+.poster{
+  width: 300px;
+  height: 400px;
+  position: relative;
+  top: 0%;
+  left: 0%;
+  border-collapse: separate;
+  border-spacing: 50px;
+  margin: 0 auto;
+  margin-right:5%;
+}
+
+div.headpic{
+  width: 1250px;
+  height: 500px;
+  position: relative;
+  top: -2.5%;
+}
+
+.headpicture{
+  width: 100%;
+  height: 90%;
+  position: relative;
+  top: 50%;
+}
+
+div.bh{
+  background-color: white;
+  width: 325px;
+  height: 400px;
+  position:relative;
+  top: -40%;
+  left: 35%;
+  opacity:77%;
+}
+
+.wh{
+  color: black;
+  font-size: 20px;
+  text-align:left;
+  font-weight:bold;
+  border-collapse: separate;
+  border-spacing: 25px 10px;
+  font-style: b;
+  
+}
+
+.whin{
+  font-size: 16px;
+  color: gray;
+  margin: auto;
+  text-align:left;
+  border-collapse: separate;
+  border-spacing: 25px 10px;
+}
+
+div.headcontainer{
+  background-color: #efefef;
+  width: 1500px;
+  height: 410px;
+  position: relative;
+  top: 5%;
+}
+
+div.headinfo{
+  width: 15%;
+  height: 60%;
+  position: relative;
+  top: 10%;
+  left: -34%;
+  border-collapse: separate;
+  border-spacing: 25px 10px;
+}
+
+div.headinfo02{
+  width: 15%;
+  height: 60%;
+  position: relative;
+  top: -53%;
+  left: -10%;
+  border-collapse: separate;
+  border-spacing: 25px 10px;
+  background-color: blueviolet;
+}
+
+div.sekini{
+  width: 162px;
+  height: 150px;
+  position: relative;
+  top: -200px;
+  left: 30%;
+}
+
+div.headby{
+  width: 1000px;
+  height: 100px;
+  position: relative;
+  top: 250px;
+}
+
+.hdlogo{
+  height: 75%;
+}
